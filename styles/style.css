@@ -64,17 +64,13 @@ a {
 .container-img {
     box-sizing: border-box;
     text-align: center;
-    width: 75.1%;
+    width: 80vw;
     height: 100vh;  
     padding: 30px;
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .h1-container {
     font-size: 50px;
-
 }
 
 .about {
