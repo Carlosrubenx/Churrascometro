@@ -1,50 +1,111 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* Configurações gerais da página */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: burlywood;
+    font-family: monospace;
+}
+
+/* Container do cálculo */
 
 .container {
-    font-family: 'Roboto', monospace;
-    max-width: 300px;
+    max-width: 350px;
+    height: 94.3vh;
     margin: auto;
-    background-color: AntiqueWhite;
+    background-color: #ffffffbb;
     padding: 20px;
-    border-radius: 10px;
     text-align: center;
+    float: right;
+    position: relative;
+}
 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.h2-container {
+    margin-bottom: 40px;
+    font-size: 25px;
 }
 
 input {
-    box-sizing: border-box;
     width: 80%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 0.5px solid ;
-    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    font-size: 16px;
 }
 
 button {
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid;
-    background-color: blueviolet;
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
+    padding: 8px;
+    border-radius: 8px;
     cursor: pointer;
+    border: none;
+    background-color: burlywood;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 25px;
 }
 
-.clean {
+a {
     text-decoration: none;
     color: white;
+    font-size: 16px;
+    font-weight: bold;
     background-color: red;
-    padding: 10px;
+    padding: 8px;
     border-radius: 10px;
+    border: none;
+}
+
+/* Container da imagem  */
+
+.container-img {
+    box-sizing: border-box;
+    text-align: center;
+    width: 75.1%;
+    height: 100vh;  
+    padding: 30px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.h1-container {
+    font-size: 50px;
+
+}
+
+.about {
+    max-width: 250px;
+    margin: auto;
+    background-color: rgb(255, 255, 255,0.7 );
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about li {
+    font-size: 18px;
+    list-style: none;
+    margin-bottom: 15px;
     font-weight: bold;
 }
 
+/* Parte onde vai aparecer o resultado */
+
 #resultado {
-    font-size: 18px;
+margin-top: 30px;
+font-size: 20px;
 }
 
+#resultado p {
+    margin-bottom: 25px;
+}

@@ -4,26 +4,36 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./styles/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Churrascometro 1.0</title>
+    <title>Churrascômetro</title>
 </head>
 <body>
     
     <div class="container">
-        <h1>Churrascômetro 1.0</h1>
+        <h2 class="h2-container">Calcule o que é necessario para fazer um bom churrasco!</h2>
 
-        <input type="number" name="adultos" id="adultos" placeholder="Adultos">
-        <input type="number" name="criancas" id="criancas" placeholder="Crianças">
-        <input type="number" name="duaracao" id="duracao" placeholder="Horas">
+        <input id="adultos" type="number" name="adultos" placeholder="Adultos">
+        <input id="criancas" type="number" name="criancas" placeholder="Crianças">
+        <input id="duracao" type="number" name="duracao" placeholder="Horas">
         <button onclick="calcular()">Calcular</button>
-        <a class="clean" href="./index.html">Limpar</a>
+        <a href="./index.html">Limpar</a>
 
         <div id="resultado">
 
         </div>
     </div>
-
-
-
+   
+    <div class="container-img">
+        <h1 class="h1-container">Churrascômetro 2.0</h1>
+        <div class="about">
+            <h2>Parâmetros</h2>
+            <ul>
+                <li>400g de carne por pessoa  /  6 horas ou mais 650g.</li>
+                <li>1200ml de cerveja por pessoa  /  6 horas ou mais 1600ml.</li>
+                <li>100ml de bebidas  /  6 horas ou mais 2000ml.</li>
+                <li>Crianças valem por 0,5.</li>
+            </ul>
+        </div>
+    </div>
     <script src="./scripts/script.js"></script>
 </body>
 </html>
